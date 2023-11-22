@@ -9,3 +9,4 @@ RUN chmod 755 /root/auto_install_mariadb.sh
 EXPOSE 3306
 
 ENTRYPOINT ["/root/auto_install_mariadb.sh"]
+CMD ["/bin/bash"]
